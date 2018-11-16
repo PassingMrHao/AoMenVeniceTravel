@@ -1,0 +1,293 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".myFragment.MacaoHistory">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <FrameLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:src="@mipmap/macao2" />
+
+            </FrameLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000简介"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门（葡语Macau、英语Macao），简称“澳”，全称中华人民共和国澳门特别行政区，位于中国大陆东南沿海，地处珠江三角洲的西岸，北邻广东省珠海市，西与珠海市的湾仔和横琴对望，东与香港隔海相望，相距60公里，南临中国南海。由澳门半岛和氹仔、路环贰岛组成，陆地面积32.8平方公里，总人口65.6万（截至2018年3月）。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001553年，葡萄牙人取得澳门的居住权，1887年12月1日，葡萄牙与清朝政府签订《中葡会议草约》和《中葡和好通商条约》，正式通过外交文书的手续占领澳门并将此辟为殖民地。1999年12月20日中国政府恢复对澳门行使主权。经过100多年欧洲文明的洗礼，东西方文化的融合共存使澳门成为一个风貌独特的城市，留下了大量的历史文化遗迹。澳门历史城区于2005年7月15日正式成为联合国世界文化遗产。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门是一个国际自由港，是世界人口密度最高的地区之一，也是世界四大赌城之一，实行资本主义制度。其著名的轻工业、旅游业、酒店业和娱乐场使澳门长盛不衰，成为全球发达、富裕的地区之一。2017年，澳门本地生产总值录得4042.0亿澳门元。2017年10月31日，联合国教科文组织将澳门列入全球美食文化创意城市网络。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门2018年9月，荣获“2018中欧绿色智慧城市奖”。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000地名由来"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门以前是个小渔村，它的本名为濠镜或濠镜澳，因为当时泊口可称为“澳”，所以称“澳门”。澳门及其附近盛产蚝（即牡蛎），因此后人把这个名称改为较文雅的“濠镜”。清乾隆年间出版的《澳门纪略》中说：“濠镜之名，着于《明史》。东西五六里、南北半之，有南北二湾，可以泊船。或曰南北二湾，规圆如镜，故曰濠镜。”从这个名称中，又引申出濠江、海镜、镜海等一连串澳门的别名。"
+                    android:textSize="16sp" />
+
+                <FrameLayout
+                    android:layout_width="326dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@mipmap/macao_mgm">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:layout_gravity="bottom"
+                        android:alpha="0.3"
+                        android:background="#595959" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="妈祖阁"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门这个名字源于妈祖，明嘉靖三十二年（1553年），葡萄牙人从当时明朝广东地方政府取得澳门居住权，成为首批进入中国的欧洲人。当时葡萄牙人从妈祖阁（妈阁庙）附近登陆，向问当地人这里的地名，因在妈阁庙旁，当地人便回答妈阁，于是澳门便被命名为Macau（妈阁葡萄牙语的译音），大陆多拼写为Macao。"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000殖民历史"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001553年，开始有葡萄牙人在澳门居住。1887年12月1日，葡萄牙与清朝政府签订《中葡会议草约》和《中葡和好通商条约》，正式通过外交文书的手续占领澳门。虽然从1557年开始被葡萄牙人在明朝求得澳门的居住权，但明朝政府仍在此设有官府，由广东省直接管辖。直至1887年葡萄牙政府与清朝政府签订了有效期为40年的《中葡和好通商条约》（至1928年期满失效）后，澳门成为葡萄牙殖民地。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:textStyle="bold"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000澳门回归"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001984年10月3日，邓小平首次公开提出用“一国两制”的方针解决历史遗留下来的澳门问题。"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001986年，中葡两国政府开始为澳门问题展开了四轮谈判。"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001987年4月13日，两国总理在北京签订《中华人民共和国政府和葡萄牙共和国政府关于澳门问题的联合声明》及两个附件。联合声明说，澳门地区（包括澳门半岛、氹仔和路环）是中国的领土，中华人民共和国将于1999年12月20日对澳门恢复行使主权。中国承诺向澳门实行一国两制，保障澳门人可享有“高度自治、澳人治澳”的权利。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001993年3月31日，中华人民共和国全国人民代表大会（全国人大）于北京通过《澳门特别行政区基本法》。是1999年前葡国管治下的一个中国领土，澳门的主权属于中国。"
+                    android:textSize="16sp" />
+
+                <FrameLayout
+                    android:layout_width="326dp"
+                    android:layout_height="196dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginBottom="4dp"
+                    android:layout_marginTop="4dp"
+                    android:background="@mipmap/macao_huigui">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:layout_gravity="bottom"
+                        android:alpha="0.3"
+                        android:background="#595959" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="bottom"
+                        android:gravity="center"
+                        android:text="澳门回归政权交接"
+                        android:textColor="#fff"
+                        android:textSize="16sp" />
+                </FrameLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30001999年12月20日零时，在中葡两国元首见证下，第127任澳门总督韦奇立和第1任澳门特别行政区行政长官何厚铧于澳门新口岸交接仪式会场场内交接澳门政权。翌日（12月21日）早上，澳门群众欢迎中国人民解放军驻澳部队进驻澳门；至此，中华人民共和国正式恢复对澳门行使主权。"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="58dp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30002015年12月16日，国务院常务会议通过《中华人民共和国澳门特别行政区行政区域图》，自2015年12月20日起施行。1999年12月20日国务院公布的《中华人民共和国澳门特别行政区行政区域图》同时废止。"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+
+
+</LinearLayout>

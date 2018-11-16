@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:background="@mipmap/yindao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+    <Button
+        android:alpha="0.8"
+        android:id="@+id/btn_yindao"
+        android:paddingLeft="18dp"
+        android:paddingRight="18dp"
+        android:textColor="#fff"
+        android:text="NOW ，开启新旅程"
+        android:background="@drawable/btn_danred"
+        android:layout_marginBottom="66dp"
+        android:layout_gravity="bottom|center"
+        android:layout_width="wrap_content"
+        android:layout_height="32sp" />
+
+</FrameLayout>

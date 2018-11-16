@@ -1,0 +1,741 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".myFragment.MacaoJingJi">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#02592E"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/macao_quqi" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="6dp"
+                    android:layout_marginTop="-8dp"
+                    android:gravity="center"
+                    android:text="澳门特别行政区区旗"
+                    android:textColor="#fff"
+                    android:textSize="18sp" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000区旗"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门特别行政区区旗为五星莲花绿旗。澳门特别行政区的区旗是绘有五星、莲花、大桥、海水图案的绿色旗帜。其长和宽之比为3:2。五颗呈弧形排列的五角星，象征着国家的统一，象征着中华人民共和国恢复对澳门行使主权，澳门是祖国不可分割的一部分；含苞待放的莲花是澳门居民喜爱的花种，既与澳门古称“莲岛”，旧称的“莲花地”、“莲花茎”、“莲峰山”相关，又寓意澳门将来的兴旺发展；三片花瓣表示澳门由澳门半岛和氹仔、路环两附属岛屿组成；大桥、海水反映着澳门自然环境的特点。底色象征着和平与安宁，寓意澳门四周是中国的领海。"
+                    android:textSize="16sp" />
+
+
+                <ImageView
+                    android:layout_width="128dp"
+                    android:layout_height="128dp"
+                    android:layout_gravity="center"
+                    android:src="@mipmap/macao_quhui" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="-6dp"
+                    android:gravity="center"
+                    android:text="澳门特别行政区区徽"
+                    android:textColor="#02592E"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门特别行政区区徽上有五星、莲花、大桥、海水图案，以绿为底色。区徽中间是五星、莲花、大桥、海水，周围以中文书写“中华人民共和国澳门特别行政区”，下为澳门的葡文名“MACAU”。区徽图案的含义与澳门特别行政区区旗相同。"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000行政区划"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门特别行政区以“堂区”作为行政区划单位，澳门有七个堂区和一个无堂区划分区域。但“堂区”并非正式的行政机构建置，不具法律地位。澳门特别行政区政府驻澳门半岛风顺堂区。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="澳门半岛"
+                    android:textColor="#1296DB"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#1296DB"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:text="堂区"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#fff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="包含地区"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#fff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="位置"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="花地玛堂区\n（北区）" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000青州、台山、黑沙环、筷子基、水塘" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000澳门西部" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="圣安多尼堂区\n（花王堂区）" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000新桥、沙梨头" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000---" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="大堂区" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000中区、新马路以北、南湾、水坑尾、新口岸填海地段" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000东至新口岸港澳码头，整条环岛公路至妈阁南端" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="望德堂区" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000荷兰园、东望洋山、塔石" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000---" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1.3"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="风顺堂区\n(圣老愣佐堂区)"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u3000妈阁山、西望洋山、新马路以南" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center_vertical"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="\u300080年代未进行南湾湖填海的整个妈阁半岛" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="澳门半岛"
+                    android:textColor="#1296DB"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#1296DB"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="堂区"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#fff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="其他称谓"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="嘉模堂区"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="氹仔" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="圣方济各堂区"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="路环" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center"
+                    android:text="无堂区划分区域"
+                    android:textColor="#1296DB"
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="36dp"
+                    android:layout_marginTop="3dp"
+                    android:background="#1296DB"
+                    android:orientation="horizontal">
+
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:text="地区"
+                        android:textColor="#fff" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#fff" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:text="范围"
+                        android:textColor="#fff" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="路氹城"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="2"
+                        android:gravity="center"
+                        android:paddingBottom="3dp"
+                        android:paddingTop="3dp"
+                        android:text="位于氹仔和路环之间的填海地段" />
+
+                    <TextView
+                        android:layout_width="2px"
+                        android:layout_height="match_parent"
+                        android:background="#1296DB" />
+
+                </LinearLayout>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="2px"
+                    android:background="#1296DB" />
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="28dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000经济综述"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门是中国人均GDP最高的城市。主要以第二产业和第三产业为主。澳门经济规模不大，但外向度高，是中国两个国际贸易自由港之一，货物、资金、外汇、人员进出自由，亦是区内税率最低的地区之一，具有单独关税区地位，与国际经济联系密切，更与欧盟及葡语国家有着传统和特殊的关系。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30002016年，澳门本地生产总值为3394.472亿澳门元，第二产业比重下跌，第三产业比重回升，第二产业占行业增加值总额的比重由2015年的7.8%下跌至2016年6.6%，第三产业的比重由92.2%上升至93.4%，其中博彩及博彩中介业的比重为47.2%，非博彩服务业的比重为46.2%。"
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="58dp"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u30002017年，澳门本地生产总值录得4042.0亿澳门元，实质增长9.1%。根据国际货币基金组织于2017年10月发布的《世界经济展望》，预测2018年澳门经济实质增长7.0%。2017年综合消费物价指数按年上升1.2%。2017年出口总额同比上升12.3%至112.8亿澳门元，年入境旅客总数为3261.1万人次。主要贸易伙伴包括有中国内地、欧盟、美国和香港等。"
+                    android:textSize="16sp" />
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

@@ -1,0 +1,756 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".myActivity.CollectActivity.Travel1ribwgActivity">
+    <LinearLayout
+        android:scrollbars="none"
+        android:background="#1296db"
+        android:paddingTop="18dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/title_lay"/>
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:id="@+id/scroll_lay"
+                android:scrollbars="none"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <LinearLayout
+                    android:scrollbars="none"
+                    android:orientation="vertical"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Day 1"
+                        android:textColor="#1296db"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:gravity="center_vertical">
+                        <ImageView
+                            android:layout_width="32sp"
+                            android:layout_height="32sp"
+                            android:src="@mipmap/beiwanglu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="今日备忘"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:text="\u3000\u3000今天的路线适合那些已经熟悉澳门并有求知欲的同学。如果你对澳门的八大景了若指掌，各色美食也是如数家珍，那么花一天时间走遍这些博物馆，是你深入了解当代澳门的最快方法。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="36dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第一站：海事博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000澳门历史最悠久的一间博物馆，对船只模型和水族馆感兴趣的，都不应该错过这里。开放时间：上午10点至下午6点，每周二休馆。早上10点到达，约40分钟参观浏览。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000 公交1，2，5，6，7，9，10，10A，11，18，21，21A，26，28B，妈阁庙站"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第二站：仁慈堂博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000离开海事博物馆，下一站来到世界文化遗产之一的仁慈堂博物馆。馆内珍藏包括：印有耶稣会徽号的陶瓷器皿、仁慈堂的历史文献“澳门仁慈堂章程”手抄原件、白马行医院的铜钟、天主教的一些祭器用品和圣像等文物。开放时间：上午9点至下午1点，下午2点30至5点30，每周日及公众假日闭馆。建议游玩时间40分钟。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000妈阁庙前地乘坐公交7，至新马路/营地大街站，下车后步行绕过议事亭前地即可到达仁慈堂。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第三站：澳门博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000接着来到位于大炮台山的澳门博物馆。博物馆主要介绍澳门的方方面面，不仅展示澳门地区的原始文明，还展示澳门的民间艺术与传统文化。例如澳门的传统节庆、日常生活习俗、传统手工艺及典型行业等。开放时间：上午10点至下午6点，下午5点30分停止进场，逢周一休馆。可参观浏览1小时。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000公交7，社会工作局站，下车后沿高园街直走约5分钟，右转入大炮台北巷。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第四站：大赛车博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000看过了综合性博物馆，下一站是特色的大赛车博物馆。一年一度的格兰披治大赛是澳门的体坛盛事，大赛车博物馆便是为庆祝澳门格兰披治大赛40周年而兴建的博物馆。赛车控，是绝对不能错过的。门票10澳门币，开放时间由上午10点至下午6点，逢周二闭馆。约45分钟参观浏览。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000公车3，高美士/马六甲停车场站"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第五站：葡萄酒博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu5"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000葡萄酒博物馆紧邻大赛车博物馆，是主要介绍葡萄酒的场所。除了介绍酿酒、葡萄种植历史，浏览葡萄种植、酿制工具器皿和各种陈年葡萄酒酒之外，还可让游客品尝美酒。门票15澳门币，开放时间由上午10点至下午6点，逢周二闭馆。花费约40分钟参观浏览。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000大赛车博物馆旁即是。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第六站：艺术博物馆"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu6"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:lineSpacingExtra="2dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000历史运动美酒都一一浏览了，怎能少了艺术呢？作为澳门唯一一所艺术博物馆，馆内除重点收藏了澳门黑沙考古出土的陶器及石器、明清广东书画、广东名家篆刻、石湾陶瓷、及十九世纪西洋绘画外，还不时有各种展览展出。开放时间：上午10点至下午7点，6点30后停止入场，逢周一休息。建议游玩时间40分钟。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_marginBottom="58dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000公车1A，宋玉生广场站，下车后沿罗马街步行约4分钟，右转入冼星海大马路，即到。"
+                        android:textSize="16sp" />
+
+
+
+
+
+
+
+
+
+
+
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="18dp"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:id="@+id/im_back_top"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:src="@mipmap/backtop"
+                    android:visibility="gone" />
+            </RelativeLayout>
+
+
+        </RelativeLayout>
+        <include layout="@layout/loading"/>
+    </FrameLayout>
+</LinearLayout>

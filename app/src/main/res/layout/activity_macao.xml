@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".findActivity.MacaoActivity">
+<LinearLayout
+    android:paddingTop="18dp"
+    android:background="#1296DB"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<include layout="@layout/title_lay"/>
+</LinearLayout>
+
+    <com.flyco.tablayout.SegmentTabLayout
+        android:layout_marginTop="2dp"
+        android:id="@+id/konw_macaotab"
+        android:layout_width="wrap_content"
+        android:layout_height="32dp"
+        android:layout_gravity="center"
+        android:paddingLeft="6dp"
+        android:paddingRight="6dp"
+        app:tl_bar_color="#ffffff"
+        app:tl_indicator_color="#1296DB"
+        app:tl_indicator_corner_radius="6dp"
+        app:tl_indicator_margin_bottom="2dp"
+        app:tl_indicator_margin_left="2dp"
+        app:tl_indicator_margin_right="2dp"
+        app:tl_indicator_margin_top="2dp"
+        app:tl_tab_width="112dp"
+        app:tl_textBold="BOTH" />
+    <FrameLayout
+        android:id="@+id/continner_macao"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
+

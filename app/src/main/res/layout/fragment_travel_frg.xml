@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".myFragment.TravelFrg">
+
+
+
+
+
+
+
+
+
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <ScrollView
+            android:id="@+id/scr_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="188dp"
+                    android:clipChildren="false">
+
+                    <com.zhengsr.viewpagerlib.view.BannerViewPager
+                        android:id="@+id/base_Banner"
+                        android:layout_width="match_parent"
+                        android:layout_height="188dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="10dp"
+                        android:clipChildren="false"
+                        app:banner_isloop="true"
+                        app:banner_looptime="3000"
+                        app:banner_switchtime="600" />
+
+                    <com.zhengsr.viewpagerlib.indicator.ZoomIndicator
+                        android:id="@+id/base_idtor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="30dp"
+                        android:layout_alignParentBottom="true"
+                        android:layout_alignParentRight="true"
+                        android:layout_marginRight="20dp"
+                        android:gravity="center"
+                        app:zoom_alpha_min="0.5"
+                        app:zoom_leftmargin="10dp"
+                        app:zoom_max="1.5"
+                        app:zoom_selector="@drawable/bottom_circle" />
+                </RelativeLayout>
+
+                <mrhao.com.aomentravel.utils.MyGridView
+                    android:id="@+id/mygridview"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:horizontalSpacing="6dp"
+                    android:numColumns="2"
+                    android:verticalSpacing="12dp" />
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/linlay_jiazaidonghua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        app:SpinKit_Style="ThreeBounce"
+                        app:SpinKit_Color="#D74143"
+                        android:layout_width="36sp"
+                        android:layout_height="36sp" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Style="ThreeBounce"
+                        app:SpinKit_Color="#D74143"
+                        android:layout_width="36sp"
+                        android:layout_height="36sp" />
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Style="ThreeBounce"
+                        app:SpinKit_Color="#D74143"
+                        android:layout_width="36sp"
+                        android:layout_height="36sp" />
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Style="ThreeBounce"
+                        app:SpinKit_Color="#D74143"
+                        android:layout_width="36sp"
+                        android:layout_height="36sp" />
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Style="ThreeBounce"
+                        app:SpinKit_Color="#D74143"
+                        android:layout_width="36sp"
+                        android:layout_height="36sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_jiazaigengduo"
+                    android:layout_width="match_parent"
+                    android:layout_height="36sp"
+                    android:layout_marginTop="18dp"
+                    android:background="#CAD9EA"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <ImageView
+                        android:layout_width="28sp"
+                        android:layout_height="28sp"
+                        android:src="@mipmap/click_loadmore" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Loading More......"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:visibility="gone"
+                    android:id="@+id/lay_dixian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="36dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    >
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginTop="18dp"
+                        android:background="#1296DB"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:textColor="#1296DB"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center"
+                        android:text="亲，我是有底线的"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginTop="18dp"
+                        android:background="#1296DB"
+                        android:gravity="center" />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </ScrollView>
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginBottom="18dp"
+            android:clickable="true"
+            android:paddingBottom="8dp"
+            android:paddingRight="8dp">
+
+            <ImageView
+                android:id="@+id/im_back_top"
+                android:layout_width="128px"
+                android:layout_height="128px"
+                android:src="@mipmap/backtop"
+                android:visibility="gone" />
+        </RelativeLayout>
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:visibility="gone"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/loading"/>
+    </RelativeLayout>
+
+</FrameLayout>

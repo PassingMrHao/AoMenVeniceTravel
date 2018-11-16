@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".findActivity.PhotoTextActivity">
+
+    <LinearLayout
+        android:paddingTop="18dp"
+        android:background="#1296db"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/title_lay"/>
+    </LinearLayout>
+
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_marginTop="18dp"
+                android:layout_gravity="center_horizontal"
+                android:background="@mipmap/no_pic"
+                android:layout_width="136dp"
+                android:layout_height="128dp" />
+            <TextView
+                android:textStyle="bold"
+                android:gravity="center"
+                android:text="没有图片"
+                android:lineSpacingExtra="2dp"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:layout_marginBottom="28dp"
+                android:layout_marginTop="18dp"
+                android:text="466545456564546545656456456456456654654654564654654"
+                android:lineSpacingExtra="5dp"
+                android:id="@+id/tv456456465"
+                android:textSize="20sp"
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+    </ScrollView>
+
+
+
+</LinearLayout>

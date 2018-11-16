@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#d7d7d7"
+    tools:context=".myActivity.CollectActivity.TravelYoujiAct">
+<LinearLayout
+    android:background="#1296db"
+    android:paddingTop="18dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <include layout="@layout/title_lay"/>
+</LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+            android:id="@+id/youji_pullrefresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        <android.support.v7.widget.RecyclerView
+            android:layout_marginLeft="6dp"
+            android:layout_marginRight="6dp"
+            android:scrollbars="none"
+            android:id="@+id/recy_youji"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+        <include layout="@layout/loading"/>
+
+    </FrameLayout>
+
+
+
+    </FrameLayout>
+</LinearLayout>

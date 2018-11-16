@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".myActivity.GongGongJiaoTongActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296DB"
+        android:paddingTop="16dp">
+
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+    <com.flyco.tablayout.SegmentTabLayout
+        android:id="@+id/table_lay"
+        android:layout_width="wrap_content"
+        android:layout_height="36dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="2dp"
+        android:paddingLeft="8dp"
+        android:paddingRight="8dp"
+        app:tl_bar_color="#ffffff"
+        app:tl_indicator_color="#1296db"
+        app:tl_indicator_corner_radius="18dp"
+        app:tl_indicator_margin_bottom="2dp"
+        app:tl_indicator_margin_left="2dp"
+        app:tl_indicator_margin_right="2dp"
+        app:tl_indicator_margin_top="2dp"
+        app:tl_tab_width="112dp"
+        app:tl_textBold="BOTH" />
+
+    <FrameLayout
+        android:id="@+id/fra_continer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+</LinearLayout>

@@ -1,0 +1,1318 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:scrollbars="none"
+    tools:context=".myActivity.CollectActivity.Travel2rimacaoActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296db"
+        android:paddingTop="18dp"
+        android:scrollbars="none">
+
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ScrollView
+                android:id="@+id/scroll_lay"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginRight="8dp"
+                android:scrollbars="none">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:text="Day 1"
+                        android:textColor="#1296db"
+                        android:textSize="32sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="28dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="32sp"
+                            android:layout_height="32sp"
+                            android:src="@mipmap/beiwanglu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="今日备忘"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000今天的路线主要集中在澳门本岛和氹仔，一早去大三巴牌坊到此一游，路经玫瑰圣母堂等历史建筑，来到议事亭前地品尝特色小吃，登澳门旅游塔俯瞰澳门全景；夜晚则将在最有特色的两间赌场体会奢华澳门，结束紧凑又丰富的一天。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="58dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第一站：大三巴牌坊"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="8dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000今天的第一站我们来到最为众人熟悉的澳门标志性建筑大三巴牌坊，一早的大三巴不会人潮如织，是拍摄的好时机。整个建筑呈巴洛克风格，但细节之处又彰显东方特色，是独一无二的中西合璧天主教教堂。牌坊全天开放，内侧的博物馆与墓室每天9:00至18:00免费入场。建议游玩时间30分钟至1小时拍照。 "
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000 公交10，10A，11，21A，2，3，3A，4，5，6，7，8A，26A，33，新马路站。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第二站：大炮台"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000大三巴牌坊的右后方便是大炮台，为澳门重要古迹之一。炮台附近有大片空地，绿草如茵。大炮位置正对葡京娱乐场，形成有趣的拍摄角度。约20分钟参观游玩。 "
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000由大三巴斜巷步行而上，约3分钟就能看到大炮台。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第三站：玫瑰圣母堂"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000从大炮台山下来后，下一站来到玫瑰圣母堂。圣母堂迄今已有400多年历史，圣堂内色彩缤纷，而圣堂后面设有一小博物馆，内藏有圣保禄大教堂遗留下来的早期著名雕刻及遗物。开放时间上午10:00~18:00，约30分钟参观浏览。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000从大炮台走回大三巴牌坊，沿大三巴巷直走约3分钟，稍向右转入卖草地街，继续直行一段右转向干草里，即可看到。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第四站：议事亭前地"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000看过了教堂建筑，去议事亭前地品尝特色小食吧。议事亭前地作为澳门的市中心也是历史城区的一部分，是不得不去的地标性广场。中央矗立着一座喷水池，整个广场由碎石子铺成波浪状，两旁有许多知名商铺餐饮等等。可逗留1~1.5小时驻足购物，并饱餐一顿午饭。 "
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000从圣母堂出来后走回卖草地街，步行一小段后右转入板樟堂街，继续直行约1分钟左转笔直走，即可看到广场。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第五站：澳门旅游塔"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu5"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000澳门旅游塔则是澳门的另一个地标性建筑，总高度338米，是全球第10位的独立式观光塔。观光塔上设有旋转自助餐厅，美景与美食两不误。大胆的同学不妨尝试一下塔上的极限运动项目，包括蹦极、高飞跳和百米登天。票价120澳门币，开放时间：每周一至周五，上午10点至21点；周末及公众假期，上午9点至21点。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000从议事亭前地的亚美打利庇卢大马路直走，至南湾大马路右转，步行约8分钟，乘坐公交32，至澳门旅游塔站。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第六站：新濠天地"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu6"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000夜幕降临，乘免费接驳巴士，来到位于氹仔岛的新濠天地。相比其他酒店最有名的莫过于立体动感的视听节目。其中的《水舞间》最为有名，融合了杂技、表演、舞蹈、戏剧。此外还有“虚拟的水族馆”和适合带小朋友前往的“童梦天地”。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000“新濠——澳门旅游塔”免费巴士。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day1_zhandian7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第七站：澳门威尼斯人"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day1_tu7"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000从新濠天地步行就可来到威尼斯人，第一层是超大的赌场，金碧辉煌纸醉金迷的节奏；第二层有著名的威尼斯人造运河和天空，不出国也能乘坐贡多拉船！河边聚集各类名品店铺，是澳门货品最齐全的免税购物区之一；澳门一大半的米其林的餐厅也都汇聚在威尼斯人。度假村24小时开放，其中商场大部分晚上11点关门，少部分24小时营业。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000沿路氹连贯公路直走至公路圆形地，右转即到，步行约10分钟。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="88dp"
+                        android:text="Day 2"
+                        android:textColor="#1296db"
+                        android:textSize="26sp"
+                        android:textStyle="bold" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="3dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="32sp"
+                            android:layout_height="32sp"
+                            android:src="@mipmap/beiwanglu" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="今日备忘"
+                            android:textSize="17sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000不同于昨天的热闹奢华，今天的重点在于体验宁静安逸的离岛风情。色彩浓郁的葡式建筑，美味的手信一条街，离岛给每个人又一个爱上澳门的理由。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="12dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day2_zhandian1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第一站：路环岛"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day2_tu1"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000远离澳门本岛，路环岛是澳门三大岛中最具有小岛风情的地方。没什么特别的景点，只是走走小路，看看民居，在茶室吃个猪扒，已是相当惬意。著名的安德鲁葡挞则是来到路环岛不可不尝的特色。建议轻松游玩，到处走走逛逛。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000公交21A，15，25，26A，路环市区站。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day2_zhandian2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第二站：圣方济各教堂"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day2_tu2"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000位于路环岛的圣方济各教堂，虽然只是普通的教堂，但因为在韩剧《宫》最后一集里露过脸，而成为不少影迷的朝拜之地。即便你对韩剧不感冒，那么《游龙戏凤》、《职业杀手》里都能找到它哦！吃过安德鲁的蛋挞，再慢慢步行十月初五街，自然就会溜达到这里。每天10点至17点开放，建议游玩时间30分钟。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000从安德鲁蛋挞沿十月初五街，步行可达。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day2_zhandian3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第三站：官也街"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day2_tu3"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000路环漫步一圈后，坐公交来到澳门另一个离岛，氹仔岛。直奔美食主题氹仔官也街，澳门著名的手信一条街。街道上分布着多家知名店铺，如莫义记的大菜糕和木糠布丁、诚昌饭店的水蟹粥、钜记手信、达荣鱼翅、大利来记猪扒包晃记饼店等。手信店大都提供试吃，边逛边吃说不定就吃饱了呢。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000公交15，氹仔官也街站。"
+                        android:textSize="16sp" />
+
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:layout_marginTop="56dp"
+                        android:background="#BCBCBC" />
+
+                    <LinearLayout
+                        android:id="@+id/day2_zhandian4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/reqiqiu2_color" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="8dp"
+                            android:text="第四站：龙环葡韵"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <RelativeLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:gravity="center_vertical">
+
+                            <ImageView
+                                android:layout_width="36sp"
+                                android:layout_height="22sp"
+                                android:layout_alignParentRight="true"
+                                android:background="@mipmap/look_more" />
+                        </RelativeLayout>
+
+                    </LinearLayout>
+
+
+                    <ImageView
+                        android:id="@+id/day2_tu4"
+                        android:layout_width="match_parent"
+                        android:layout_height="168dp"
+                        android:layout_marginTop="6dp" />
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="6dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="28sp"
+                            android:layout_height="28sp"
+                            android:src="@mipmap/gonglueshuqian" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="游玩指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="1dp"
+                        android:lineSpacingExtra="2dp"
+                        android:text="\u3000\u3000吃饱喝足，去博物馆感受离岛上的葡式文化吧。龙环葡韵是澳门八景之一，99年才对外开放，五栋葡萄牙住宅分别为：土生葡人之家、海岛之家、葡萄牙地区之家、展览馆、迎宾馆。它不仅是澳门重要的文物建筑与文化遗产，也是摄影的好去处。每周二至日上午10点至17点，免费开放，周一闭馆。"
+                        android:textSize="16sp" />
+
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="8dp"
+                        android:gravity="center_vertical"
+                        android:orientation="horizontal">
+
+                        <ImageView
+                            android:layout_width="30sp"
+                            android:layout_height="30sp"
+                            android:src="@mipmap/jiaotongzhinan" />
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="6dp"
+                            android:text="交通指南"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+                    </LinearLayout>
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="58dp"
+                        android:layout_marginTop="1dp"
+                        android:text="\u3000\u3000从官也街出来，沿施督宪正街步行至嘉模斜巷右转，直行一段至光复街左转，即到。"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+            </ScrollView>
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="18dp"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:id="@+id/im_back_top"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:src="@mipmap/backtop"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <include layout="@layout/loading"/>
+    </FrameLayout>
+</LinearLayout>

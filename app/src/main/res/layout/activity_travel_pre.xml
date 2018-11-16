@@ -1,0 +1,438 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    tools:context=".myActivity.TravelPreActivity">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296DB"
+        android:paddingTop="16dp">
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="8dp"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:textStyle="bold"
+                android:textSize="17sp"
+                android:textColor="#1296DB"
+                android:layout_marginTop="18dp"
+                android:gravity="center"
+                android:text="旅行攻略：旅行前的几大准备！赶紧get起来"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="\u3000\u3000我不知道有多少人因为那封“世界那么大，我想去看看”的辞职信，而注入了更多说走就走的勇气，然而有些事情不在旅行前准备好，很容易就变成“人在囧途”。"
+                android:layout_marginTop="18dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="\u3000\u3000那么旅行前需要做哪些准备，你都知道吗？尤其不常出门的人，更该好好看看，以免到了不熟悉的地方什么都是一脸懵，不但玩不好还更种烦心事，本身就决定出来散心的，别让小事扰乱了你的好心情。"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000检查携带的所需证件" />
+            </LinearLayout>
+
+
+
+            <TextView
+                android:text="\u3000\u3000出门旅行，证件一定要检查好，什么身份证，护照，港澳通行证等等。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="\u3000\u3000出门必须携带的：身份证、签证、护照、火车/汽车/飞机票等"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="\u3000\u3000备用：国际学生证、护照复印件及证件相片（办理临时签证备用）、疫苗接种证书 ，学生证等。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000如果是在国内丢了身份证还可以坐火车，如果是在国外丢了护照，那简直不要太麻烦...ps:去火车站办理临时身份证 还需要准备1寸小照片呢。"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000手机和充电器" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000相信手机这块大家应该都不会遗忘，毕竟上厕所都要带在身边的，出发前电池充满，确保带上充电器和充电宝，部分地区需要转化插头，如需使用手机通讯，记得开通全球通业务，或者购买当地的手机卡。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000注意当地的天气变化" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000记得前不久去重庆的天空悬廊，因为去之前没有查好天气，想着都夏天了，天气应该也不会有多冷了，于是就一件衬衣......然而恰好当天天公不作美，正赶上下雨天，山上的人都是大棉袄，我们分分钟被冻成了狗。所以不管去哪，出发前一定要查好当地的天气，以便带适合的衣物，或者重新规划好出门的日期。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000行程不要排太满" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000总有一些人习惯把行程排的满满的，一大早起来睡眼惺忪的逛景点，还要计算着哪些景点没去。多累呀！况且，很多城市都大同小异，慢慢感受才会发现她的魅力！不如就一觉睡到自然醒，再出去满大街闲逛！毕竟对于现在忙碌的我们来说，旅行的第一目的是为了放松，其次才是看世界嘛。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000鞋子一定要穿对" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000无论去哪，一双舒适的鞋比什么都重要。江湖流传着5种禁忌，避开它们出门旅行不用愁。一忌鞋底薄软，二忌无带鞋，三忌鞋码小，四忌不透气，五忌高跟鞋。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000当然，也最好不要为了美穿新鞋。因为新鞋都有“磨合”期，加之旅行中徒步的时间是平时的几倍，哪怕鞋子有很小的问题，也会影响整个行程。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:text="\u3000\u3000温馨提示：旅行时为了防止脚痛和损伤，可带一点护创膏和松节油。"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000带一些现金" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000日常生活中，移动支付的便捷让我们有一种迷之自信——出门只带个手机就能活！"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu7"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000但，世界上不是所有地方都能使用移动支付。尤其在国外，很多店会写着“只收现金”，如果你刚好没带现金，不就傻眼了..."
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000尽量少带行李" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000每次旅行都激动无比，兴冲冲的收拾着行李，却发现，行李箱根本！不！够！装！貌似每个汉子和妹纸都有过这样悲催的经历。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu8"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000轻装上路才能体会快乐！要记得我们是出去玩，不是去过日子！“也许会看的书”，“可能会敷的面膜”，“说不定会用到的另一只镜头”...这些通通放下吧，真的用不到！"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000随身携带药品" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000水土不服，是旅行中最常见的病症，尤其老人和小孩。因此出门旅行一定要带上适当的药品以备不时之需。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu9"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000包括创可贴，消炎药、感冒药、晕车药、止泻药、过敏药，夏天必要的防蚊虫药品等。"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000了解当地的民俗和规矩" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000尊重与接纳他乡民俗和礼仪，是旅行最好的开始。旅行前，先了解当地的民俗和规矩，以免引发不必要的争执跟麻烦。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu10"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="\u3000\u3000比如：藏族人只吃偶蹄类牲畜，不吃奇蹄类牲畜。泰国小孩的头摸不得，在印度只能用右手吃饭...…这些规矩一定要遵守，人家并不会因为你是游客就不责怪你。"
+                android:layout_marginTop="8dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:textColor="#1296DB"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000提前订好酒店" />
+            </LinearLayout>
+
+            <TextView
+                android:text="\u3000\u3000不管出差还是旅行，提前订酒店基本是常识了，毕竟碰上旅游高峰期，露宿街头也是有可能的。而且相信老司机们也都知道提前订酒店会更便宜。"
+                android:layout_marginTop="3dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+            <ImageView
+                android:adjustViewBounds="true"
+                android:layout_marginBottom="58dp"
+                android:layout_marginTop="8dp"
+                android:id="@+id/im_tu11"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

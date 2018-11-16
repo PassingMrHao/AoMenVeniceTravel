@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relay_market"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="128dp">
+
+    <ImageView
+
+        android:scaleType="centerCrop"
+        android:id="@+id/img_market"
+        android:layout_width="match_parent"
+        android:layout_height="128dp" />
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="36dp"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="36dp"
+            android:alpha="0.4"
+            android:background="#8F8F8F" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:id="@+id/tv_market_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_marginLeft="3dp"
+                android:text="威尼斯人购物中心"
+                android:maxLines="1"
+                android:ellipsize="end"
+                android:textColor="#fff"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:textSize="13sp"
+                android:id="@+id/tv_market_tag"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="3dp"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="3dp"
+                android:text="商场"
+                android:textColor="#fff" />
+        </RelativeLayout>
+
+    </FrameLayout>
+</RelativeLayout>

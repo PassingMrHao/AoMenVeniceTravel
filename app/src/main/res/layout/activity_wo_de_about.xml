@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".findActivity.WoDeAboutActivity">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#94CBF6" />
+
+        <ImageView
+            android:layout_width="188dp"
+            android:layout_height="188dp"
+            android:layout_gravity="center"
+            android:alpha="0.88"
+            android:scaleType="centerCrop"
+            android:src="@mipmap/travel_baloon" />
+    </FrameLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/aa454545"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp">
+
+            <ImageView
+                android:id="@+id/about_chahao"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="8dp"
+                android:src="@mipmap/chahao" />
+
+            <ImageView
+                android:src="@mipmap/icon"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="18dp"
+                android:layout_below="@+id/about_chahao"
+                android:layout_width="88dp"
+                android:layout_height="88dp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_marginTop="16dp"
+            android:layout_below="@+id/aa454545"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="8dp"
+            android:layout_marginRight="5dp"
+            android:lineSpacingExtra="4dp"
+            android:text="\u3000\u3000澳门旅游指南是一个专为喜爱澳门、热爱旅行的朋友们提供服务的移动应用。旨在为大家提供更加全面、丰富的旅游攻略，像大家展示澳门的景点、美食、娱乐场所和购物地区，揭开澳门神秘的面纱，让大家了解澳门，爱上澳门！"
+            android:textColor="#fff"
+            android:textSize="17sp" />
+    </RelativeLayout>
+
+
+</FrameLayout>

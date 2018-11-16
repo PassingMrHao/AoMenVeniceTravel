@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#D4D4D4"
+    android:orientation="vertical"
+    tools:context=".findActivity.FindFoodActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296DB"
+        android:paddingTop="18dp">
+
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <ScrollView
+            android:id="@+id/scroll_lay"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <mrhao.com.aomentravel.utils.MyGridView
+                    android:layout_marginTop="8dp"
+                    android:scrollbars="none"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:verticalSpacing="10dp"
+                    android:numColumns="1"
+                    android:id="@+id/grid_foods"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                </mrhao.com.aomentravel.utils.MyGridView>
+
+                <LinearLayout
+                    android:id="@+id/linlay_jiazaidonghua"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="9dp"
+                    android:layout_marginTop="9dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_width="36sp"
+                        android:layout_height="36sp"
+                        app:SpinKit_Color="#D74143"
+                        app:SpinKit_Style="ThreeBounce" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_width="36sp"
+                        android:layout_height="36sp"
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Color="#D74143"
+                        app:SpinKit_Style="ThreeBounce" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_width="36sp"
+                        android:layout_height="36sp"
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Color="#D74143"
+                        app:SpinKit_Style="ThreeBounce" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_width="36sp"
+                        android:layout_height="36sp"
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Color="#D74143"
+                        app:SpinKit_Style="ThreeBounce" />
+
+                    <com.github.ybq.android.spinkit.SpinKitView
+                        android:layout_width="36sp"
+                        android:layout_height="36sp"
+                        android:layout_marginLeft="18dp"
+                        app:SpinKit_Color="#D74143"
+                        app:SpinKit_Style="ThreeBounce" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/linlay_jiazaigengduo"
+                    android:layout_width="match_parent"
+                    android:layout_height="36sp"
+                    android:layout_marginTop="8dp"
+                    android:background="#CAD9EA"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <ImageView
+                        android:layout_width="28sp"
+                        android:layout_height="28sp"
+                        android:src="@mipmap/click_loadmore" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="8dp"
+                        android:text="Loading More......"
+                        android:textColor="#fff"
+                        android:textSize="18sp" />
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lay_dixian"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="8dp"
+                    android:layout_marginRight="8dp"
+                    android:layout_marginTop="36dp"
+                    android:gravity="center"
+                    android:orientation="horizontal"
+                    android:visibility="gone">
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginTop="18dp"
+                        android:background="#fff"
+                        android:gravity="center" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginLeft="8dp"
+                        android:layout_marginRight="8dp"
+                        android:layout_marginTop="18dp"
+                        android:gravity="center"
+                        android:text="亲，我是有底线的"
+                        android:textColor="#fff"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:layout_width="88dp"
+                        android:layout_height="2px"
+                        android:layout_marginBottom="36dp"
+                        android:layout_marginTop="18dp"
+                        android:background="#fff"
+                        android:gravity="center" />
+                </LinearLayout>
+
+
+            </LinearLayout>
+        </ScrollView>
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginBottom="18dp"
+        android:clickable="true"
+        android:paddingBottom="8dp"
+        android:paddingRight="8dp">
+
+        <ImageView
+            android:id="@+id/im_back_top"
+            android:layout_width="128px"
+            android:layout_height="128px"
+            android:src="@mipmap/backtop"
+            android:visibility="gone" />
+    </RelativeLayout>
+
+
+</RelativeLayout>
+        <include layout="@layout/loading" />
+    </FrameLayout>
+</LinearLayout>

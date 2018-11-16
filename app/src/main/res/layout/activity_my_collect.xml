@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#EEEEEE"
+    android:orientation="vertical"
+    tools:context=".myActivity.MyCollectActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296DB"
+        android:paddingTop="18dp">
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="6dp"
+        android:layout_marginRight="6dp"
+        android:orientation="vertical">
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_collect_jingdian"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="15dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/colet_jingdian"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="旅游景点"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/lay_collect_zixun"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/travel_baloon"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="资讯攻略"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_collect_zhekou"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/colet_zhekou"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="特价折扣"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_collect_gouwu"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/colet_gouwu"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="购物商场"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_collect_yule"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/colet_yule"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="娱乐场所"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+        <LinearLayout
+            android:id="@+id/lay_collect_food"
+            android:paddingLeft="8dp"
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:layout_marginTop="18dp"
+            android:background="#fff">
+            <ImageView
+                android:background="@mipmap/colet_food"
+                android:layout_width="55dp"
+                android:layout_height="55dp" />
+            <TextView
+                android:textSize="18sp"
+                android:textColor="#1296DB"
+                android:text="美食餐饮"
+                android:layout_marginLeft="28dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <RelativeLayout
+                android:gravity="center_vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+                <ImageView
+                    android:layout_marginRight="3dp"
+                    android:background="@mipmap/look_more"
+                    android:layout_alignParentRight="true"
+                    android:layout_width="36dp"
+                    android:layout_height="32dp" />
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

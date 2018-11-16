@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    tools:context=".myFragment.MacaoTrans">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:src="@mipmap/macao_wenhua" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="6dp"
+                android:layout_marginRight="6dp"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000文化综述"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000由于澳门独特的地理位置和历史背景，所以澳门文化是有深厚传统内涵的中华文化和以葡萄牙文化为持质的西方文化共存的并行文化，是一种以中华文化为主、兼容葡萄牙文化的具有多元化色彩的共融文化。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\宗教"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门的宗教充分体现中西文化交融的特征，除佛教、道教、儒教信仰为主体的民间信仰之外，也有传入的天主教、基督教、伊斯兰教等，历史源远流长。澳门全区人口中佛教信徒占50%，天主教信徒占15%，无宗教信仰者及其他教信徒占35%。新兴宗教的国际基士拿知觉协会、日本的神慈秀明会、澳门创价学会等都有在澳门活动，只是规模较主流宗教相对小。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="●"
+                        android:textColor="#1296DB"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  佛教"
+                        android:textColor="#1296DB"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000佛教信仰在澳门华人群体的社会生活中，占据着相当重要的位置。澳门居民大多数是华人，深受中国传统文化影响。佛教信仰在澳门华人的文化和生活中植有深厚根基。澳门有不少佛教团体，主要的有成立于1997年的澳门佛教总会。澳门有庙宇40多座，数十间土地庙和神舍，以供奉观音、天后和关帝居多。特区政府成立后，将每年农历四月初八佛诞日定为公众假期。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="●"
+                        android:textColor="#1296DB"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  天主教"
+                        android:textColor="#1296DB"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门天主教教区首位署任主教是耶稣会会士贾耐劳。澳门教区的实际范围只局限于澳门本埠，共拥有堂区6个，准堂区3个，传教区圣堂3间。独立建筑物形式的大小圣堂18间，设立在公教机构建筑物内的小圣堂55间。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="●"
+                        android:textColor="#1296DB"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  基督教（更正教）"
+                        android:textColor="#1296DB"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000基督教传入中国共有四次，分别在唐、元、明和清朝，最后两次都与澳门有关，近代基督教历史，将澳门称为福音初至之地。1807年，第一位基督教（更正教）传教士马礼逊，从英国伦敦传道会来到澳门，展开基督教第四次来华历史。澳门浸信教会于1904年创立，中华基督教会志道堂于1906年在黑沙湾建堂；1938年，圣公会在澳门开展工作。澳门的基督教宗派主要有：中华基督教会、浸信会、圣公会、宣道堂、宣道会、浸信宣道会、神召会、协基会、播道会等。澳门基督教有近80多间堂会，教牧人员逾150人，居澳信徒约8000人，经常参加崇拜者约4400人。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="●"
+                        android:textColor="#1296DB"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  伊斯兰教"
+                        android:textColor="#1296DB"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门伊斯兰会于1935年成立，早年计划兴建清真寺及伊斯兰中心，其中建筑伊斯兰中心的蓝图在澳葡政府时代已获批淮。按计划兴建的清真寺，面积约有1250平方米，可容纳600名礼拜者。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="6dp"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="●"
+                        android:textColor="#1296DB"
+                        android:textSize="25sp" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="  巴哈伊教"
+                        android:textColor="#1296DB"
+                        android:textSize="16sp" />
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000巴哈伊教于1953年传入澳门。澳门巴哈伊教的地方级教务机构-澳门分会于1958年成立。1984年于凼仔岛、1988年于路环设立地方巴哈伊中心。1989年，全澳性的教务机构-巴哈伊教澳门总会成立。澳门3个分会都归巴哈伊教澳门总会管理。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000语言"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门的官方语言分别是汉语及葡萄牙语。澳门以汉语粤方言（粤语）为日常用语的居住人口占85.7%，福建方言占4%，普通话占3.2%，其他汉语方言占2.7%，而使用葡萄牙语的人口则为0.6%，其余人口使用英语（1.5%）、塔加洛语（菲律宾，1.3%）及其它语言（2001年）。"
+                    android:textSize="16sp" />
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门土语（Macanese，葡萄牙文叫“巴度亚”（Patuá））是由葡文、马来语、粤语、英文、古葡文以及少许荷兰文、西班牙文和意大利文混合而成的澳门方言，曾是澳门土生葡人常用的语言，已几乎绝迹。澳门最后一位以澳门土语进行创作的土生葡人作家是若瑟·山度士·飞利拉。"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="18dp"
+                    android:gravity="center_vertical">
+
+                    <ImageView
+                        android:layout_width="22dp"
+                        android:layout_height="22dp"
+                        android:src="@mipmap/star" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="\u3000饮食文化"
+                        android:textColor="#1296DB"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000澳门土生菜是澳门独特的美食，用丰富的配料烹调出揉合中葡特色的佳肴。16至17世纪期间，葡萄牙航海事业发达，商人经营香料贸易，商船途经非洲、印度沿岸、东南亚地区的马六甲等地始抵达澳门，将沿途各地的香料和饮食文化带到澳门。澳门烹饪吸收了广东地区的烹饪法和食材。此外，葡萄牙人与上述不同地区的族群及澳门的本地华人通婚，以致各地与本地的材料、菜色和煮法渐渐融入澳门的传统葡国菜。澳门土生葡人美食烹饪技艺于2012年获列入澳门非物质文化遗产名录。"
+                    android:textSize="16sp" />
+
+                <ImageView
+                    android:layout_marginTop="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/macao_meishi" />
+
+
+                <TextView
+                    android:layout_marginBottom="58dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="8dp"
+                    android:lineSpacingExtra="2dp"
+                    android:text="\u3000\u3000 澳门的葡国菜分为葡式及澳门式两种。经过改良，更适合东方人口味的澳门式葡国菜是世界上独一无二的菜式，它是葡国、印度、马来西亚及中国(广东)烹饪技术的结晶。它取长补短，兼收并蓄，如非洲鸡，果亚鸡及辣大虾等都是葡国从非洲及印度学会使用香料後而烹调制成的。此外，烧牛尾、葡国鸡、葡国腊肠、沙甸鱼等也是澳门着名的菜式。"
+                    android:textSize="16sp" />
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

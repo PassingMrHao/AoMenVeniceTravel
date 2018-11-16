@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/relay_load"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="#8CD3EC"
+    android:layout_width="match_parent"
+    android:layout_height="1500dp">
+
+    <ImageView
+        android:layout_centerHorizontal="true"
+        android:id="@+id/im_66666666"
+        android:layout_marginTop="128dp"
+        android:src="@mipmap/travel_baloon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:layout_marginTop="6dp"
+        android:layout_below="@+id/im_66666666"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <com.github.ybq.android.spinkit.SpinKitView
+            app:SpinKit_Style="Circle"
+            app:SpinKit_Color="#fff"
+            android:layout_width="43dp"
+            android:layout_height="43dp" />
+        <TextView
+            android:layout_marginLeft="16dp"
+            android:textSize="20sp"
+            android:text="加载中. . . . . ."
+            android:textColor="#fff"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+    </LinearLayout>
+</RelativeLayout>

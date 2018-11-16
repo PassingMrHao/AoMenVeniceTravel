@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linlay_zhekoua"
+    android:layout_marginLeft="6dp"
+    android:layout_marginRight="2dp"
+    android:layout_width="match_parent"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="6dp"
+    android:background="#fff"
+    android:layout_height="120dp"
+
+    android:orientation="horizontal">
+    <ImageView
+        android:layout_marginLeft="3dp"
+        android:layout_gravity="center_vertical"
+        android:id="@+id/img_zhekou"
+        android:layout_width="108dp"
+        android:layout_height="108dp"
+        android:scaleType="fitXY"
+      />
+
+    <RelativeLayout
+        android:layout_marginLeft="6dp"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <TextView
+        android:maxLines="2"
+        android:id="@+id/tv_subtle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="购买指定Marshall音响即可获赠指定耳机一副"
+        android:textColor="#1296DB"
+        android:textSize="16sp"
+        android:textStyle="bold" />
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginBottom="5dp"
+        android:layout_alignParentBottom="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:gravity="center_vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="商家品牌 ："
+                android:textColor="#1296DB"
+                android:textSize="14sp" />
+
+            <TextView
+                android:id="@+id/tv_pinpai"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="莎莎sasa"
+                android:textSize="14sp" />
+
+        </LinearLayout>
+
+
+
+            <LinearLayout
+                android:layout_marginTop="6dp"
+                android:gravity="center_vertical"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="标\u3000\u3000签 ："
+                    android:textColor="#1296DB"
+                    android:textSize="14sp" />
+
+                <TextView
+                    android:id="@+id/tv_tag"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="化妆品"
+                    android:textSize="14sp" />
+            </LinearLayout>
+
+    </LinearLayout>
+</RelativeLayout>
+
+
+
+</LinearLayout>

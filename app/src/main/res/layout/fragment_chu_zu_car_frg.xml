@@ -1,0 +1,505 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    tools:context=".myFragment.ChuZuCarFrg">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="概述"
+                android:textColor="#1296DB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\u3000\u3000澳门出租车是黑色车身，奶白色车顶。收费及可行驶营运之地区并无差异，使用电召服务则不需要额外缴付电召费用。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u3000普通出租车，俗称‘黑的’，因车身漆上黑色而得名。普通出租车可以接载乘客来往澳门半岛、凼仔、路氹城和路环所有有道路连接的地点(包括关闸口岸、莲花口岸和澳门国际机场)。
+乘客可于出租车站候车，亦可于人行道向马路上没有载客的出租车司机挥手示意打车。" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000收费标准" />
+            </LinearLayout>
+
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="价格(澳门币)"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#fff"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="收费项目"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="19.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000起步(1600米内)"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="2.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000跳表(1600米后每240米)"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="2.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000应乘客要求候车等候时(每60s)"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="3.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000放置大件行李(每件)"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+
+
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="价格(澳门币)"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#fff"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="附加费用"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="2.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000由凼仔前往路环"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="5.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000由凼仔前往路环"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="5.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000由横琴岛澳门大学新校区、氹仔客运码头前往澳门国际机场"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="5.00"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000特别出租车即时电召费"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <LinearLayout
+                    android:orientation="vertical"
+                    android:paddingLeft="8dp"
+                    android:paddingRight="8dp"
+                    android:paddingTop="6dp"
+                    android:paddingBottom="16dp"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content">
+
+                    <TextView
+                        android:text="其他事项："
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        android:text="1.乘客必须按表缴付乘车费用及缴付适当的附加收费"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:layout_marginTop="3dp"
+                        android:text="2.乘车费用及附加费以澳门币或港币进行支付"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:layout_marginBottom="58dp"
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+
+
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

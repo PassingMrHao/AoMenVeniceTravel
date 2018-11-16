@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mrhao.com.aomentravel">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.RECEIVE_SMS" />
+    <uses-permission android:name="android.permission.READ_SMS" />
+
+    <application
+        android:name=".MyApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="false"
+        android:icon="@mipmap/icon"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/icon"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:configChanges="screenSize|keyboardHidden|orientation" />
+        <activity android:name=".myActivity.LoadingActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".myActivity.WelcomeActivity" />
+        <activity android:name=".myActivity.BaseActivity" />
+        <activity
+            android:name=".myActivity.BannerWebActivity"
+            android:screenOrientation="portrait" />
+        <activity android:name=".myActivity.HuiLvActivity" />
+        <activity android:name=".myActivity.GongGongJiaoTongActivity" />
+        <activity android:name=".myActivity.TianQiActivity" />
+        <activity android:name=".myActivity.PhoneNumberActivity" />
+        <activity android:name=".myActivity.TravelPreActivity" />
+        <activity android:name=".myActivity.TravelDetailsActivity" />
+        <activity android:name=".myActivity.MobLoginActivity" />
+        <activity android:name=".myActivity.MobRegistActivity" />
+        <activity android:name=".myActivity.MobFindPswActivity" />
+        <activity android:name=".findActivity.FindZheKouActivity" />
+        <activity android:name=".myActivity.ChangeHeadImgActivity" />
+        <activity android:name=".myActivity.ZheKouWebActivity" />
+        <activity android:name=".myActivity.MyCollectActivity" />
+        <activity android:name=".myActivity.CollectActivity.ZiXunActivity" />
+        <activity android:name=".myActivity.CollectActivity.JingDianActivity" />
+        <activity android:name=".myActivity.CollectActivity.ZheKouActivity" />
+        <activity android:name=".myActivity.CollectActivity.GouWuActivity" />
+        <activity android:name=".myActivity.CollectActivity.YuLeActivity" />
+        <activity android:name=".myActivity.CollectActivity.FoodActivity" />
+        <activity android:name=".findActivity.FindMarketActivity" />
+        <activity android:name=".findActivity.MarketDetailsActivity" />
+        <activity android:name=".findActivity.FindPlayActivity" />
+        <activity android:name=".findActivity.FindFoodActivity" />
+        <activity android:name=".findActivity.PlayDetailsActivity" />
+        <activity android:name=".findActivity.FoodsDetailsActivity" />
+        <activity android:name=".findActivity.MacaoActivity" />
+        <activity android:name=".findActivity.TuiSongSheZhiActivity" />
+        <activity android:name=".findActivity.YiJianActivity" />
+        <activity android:name=".myActivity.WebUrlActivity" />
+        <activity android:name=".findActivity.MoreGongLueActivity" />
+        <activity android:name=".myActivity.CollectActivity.Travel2rimacaoActivity" />
+        <activity android:name=".myActivity.CollectActivity.Travel1ricityActivity" />
+        <activity android:name=".myActivity.CollectActivity.Travel1ribwgActivity" />
+        <activity android:name=".myActivity.MacaoTravelDetailsActivity" />
+        <activity android:name=".myActivity.CollectActivity.TravelXiangceAct" />
+        <activity android:name=".myActivity.CollectActivity.TravelYoujiAct" />
+        <activity android:name=".findActivity.PhotoViewActivity" />
+        <activity android:name=".findActivity.YinXiangPhotoActivity" />
+        <activity android:name=".myActivity.CollectActivity.YouJiDetailsActivity" />
+        <activity android:name=".findActivity.PhotoTextActivity" />
+        <activity
+            android:name=".myActivity.PopWindowAct"
+            android:theme="@style/dialogstyle" />
+        <activity android:name=".myActivity.CollectActivity.NoTravelYoujiAct" />
+        <activity android:name=".myActivity.MacaoSearchActivity" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_mgmAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_dsbAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_pujingAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_guanyejieAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_LongAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_wnsAct" />
+        <activity android:name=".myActivity.ChuYouMaCaoAct.ChuYou_shuiwujianAct" />
+        <activity android:name=".myActivity.AllMaCaoJDActivity" />
+        <activity
+            android:name=".findActivity.WoDeAboutActivity"
+            android:theme="@style/dialogstyle" />
+        <activity android:name=".findActivity.WoDeMsgActivity" />
+        <activity android:name=".myActivity.MaCaoYjDetilesAct" />
+        <activity android:name=".findActivity.FindMoreHangBanAct" />
+        <activity android:name=".findActivity.FindMoreTransAct">
+
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,509 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical"
+    tools:context=".myFragment.GGJTFrg">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="概述"
+                android:textColor="#1296DB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\u3000\u3000澳门市内交通便捷，多种公共交通工 可接载旅行者在本岛、凼仔及路环之间往来。许多大型娱乐场和酒店在关闸口岸、外港码头等主要的出入境口岸设有接驳巴士，为旅行者提供交通接送服务。如果想充分体验澳门的小城气息，可以选择人力三轮车或租用小型旅游车辆来游览澳门。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\u3000\u3000截至2017年5月，澳门三间公司私营公共巴士服务，营建路线78条。(不包括澳门公共汽车有限公司和歧关联营之莲花口岸专线)" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000澳门新福利公共汽车有限公司(新福利)" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u3000是澳门目前拥有最大车队的巴士公司，运营线路共有25条，每日服务近24万乘客。该公司为澳门首间且唯一一间获ISO优质管理认证的巴士公司" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000澳门公共汽车有限公司(澳巴)" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u3000共运营20条线路，还有一条是与歧关联营之莲花口岸专线，于粤澳边界行驶。" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000澳门新时代公共汽车股份有限公司(新时代)" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u3000约300部巴士运营32条路线，按经营路线数量是澳门最大的巴士公司，每日服务近22万乘客。" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="重要路线"
+                android:textColor="#1296DB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000往返澳门半岛和凼仔岛之间" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u300011、22、28A、30、33和34路" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000前往澳门机场" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u3000AP1、MT1、MT2、N2、21、26和36路" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:gravity="center_vertical">
+
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000往返澳门、凼仔和路环间" />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="\u3000\u300021、21A、25、26和26A路" />
+
+
+            <LinearLayout
+                android:layout_marginTop="18dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="景点"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp" />
+                <View
+                    android:background="#fff"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+
+                    android:textColor="#fff"
+                    android:background="#1296DB"
+                    android:gravity="center"
+                    android:text="巴士线路"
+                    android:layout_weight="2"
+                    android:layout_width="0dp"
+                    android:layout_height="36dp" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="58dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:background="#1296DB" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="3"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="澳门国际机场" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:gravity="center"
+                        android:text="大三巴" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="龙环葡韵" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="路氹金光大道" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="观音像" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="黑沙海滩" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="议事厅前地" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="澳门旅游塔" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:gravity="center"
+                        android:text="氹仔官也街" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:gravity="center"
+                        android:text="二龙喉公园\n(东望洋灯塔)"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:background="#1296DB" />
+
+                <LinearLayout
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="6"
+                    android:orientation="vertical">
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="26、36、AP1、MT1、N2、51A、AP1X、MT4路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:text="2、3、3A、4、5、6A、8、8A、9、9A、10、10A、11、12、17、18、18A、19、21A、25、26A、33路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="15、21A、50、50X、N2、N3路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="15、21A、25、25X、26、26A、MT4、N3路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="1A、3、3A、5、8、10、10A、10B、12、17、23路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="15、21、21A、25、26A路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="3、4、6、8A、19、26A、33、N1A路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="9、9A、18、23、26、MT4、32路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="45dp"
+                        android:text="11、15、22、28A、30、33、34路"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                    <TextView
+                        android:layout_marginLeft="2dp"
+                        android:gravity="center_vertical"
+                        android:layout_width="match_parent"
+                        android:layout_height="88dp"
+                        android:text="6、28C、H1(得胜斜港)、17、28C(陈瑞祺中学)、2、12、22、2A、6、17、18、23路(鲍思高球场)"
+                        android:textSize="14sp" />
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="2px"
+                        android:background="#1296DB" />
+
+                </LinearLayout>
+
+                <TextView
+                    android:layout_width="2px"
+                    android:layout_height="match_parent"
+                    android:background="#1296DB" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

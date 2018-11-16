@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#D7D7D7"
+    android:orientation="vertical"
+    tools:context=".myActivity.AllMaCaoJDActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296db"
+        android:paddingTop="18dp">
+
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <com.jwenfeng.library.pulltorefresh.PullToRefreshLayout
+                android:id="@+id/pull_refresh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <ScrollView
+                    android:id="@+id/scroll_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:scrollbars="none">
+
+                    <mrhao.com.aomentravel.utils.MyGridView
+                        android:id="@+id/gv_alljd"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="5dp"
+                        android:horizontalSpacing="8dp"
+                        android:numColumns="2"
+                        android:scrollbars="none" />
+                </ScrollView>
+            </com.jwenfeng.library.pulltorefresh.PullToRefreshLayout>
+
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentRight="true"
+                android:layout_marginBottom="18dp"
+                android:clickable="true"
+                android:paddingBottom="8dp"
+                android:paddingRight="8dp">
+
+                <ImageView
+                    android:id="@+id/im_back_top"
+                    android:layout_width="128px"
+                    android:layout_height="128px"
+                    android:src="@mipmap/backtop"
+                    android:visibility="gone" />
+            </RelativeLayout>
+        </RelativeLayout>
+
+        <include layout="@layout/loading" />
+    </FrameLayout>
+</LinearLayout>

@@ -1,0 +1,23 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+    </style>
+
+    <!--Activity 窗口模式-->
+    <style name="dialogstyle" parent="Theme.AppCompat.Light.Dialog">
+        <!--设置无标题-->
+        <item name="windowNoTitle">true</item>
+    </style>
+
+
+    <color name="colorBackground">#f1f0f6</color>
+    <color name="colorDefault">#ffffff</color>
+    <color name="colorText">#9b9b9b</color>
+    <declare-styleable name="Search_View"><attr format="dimension" name="textSizeSearch"/><attr format="color" name="textColorSearch"/><attr format="string" name="textHintSearch"/><attr format="integer" name="searchBlockHeight"/><attr format="color" name="searchBlockColor"/></declare-styleable>
+
+</resources>

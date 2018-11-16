@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_marginTop="2dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="2dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+            <ImageView
+                android:layout_width="168px"
+                android:layout_height="176px"
+                android:src="@mipmap/travel_baloon" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linlay_news"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="118dp"
+            android:layout_marginRight="6dp"
+            android:background="@mipmap/duihuakuang">
+
+            <RelativeLayout
+                android:layout_weight="2"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+                <TextView
+                    android:id="@+id/travel_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="18dp"
+                    android:layout_marginTop="22dp"
+                    android:ellipsize="end"
+                    android:maxLines="4"
+                    android:text="最新口岸通关时间表，这样过关省时又省力！"
+                    android:textColor="#3091F0"
+                    android:textSize="15sp"
+                    android:textStyle="bold" />
+                <LinearLayout
+                    android:layout_alignParentBottom="true"
+                    android:layout_marginBottom="12dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="18dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:textColor="#3091F0"
+                        android:textSize="13sp"
+                        android:text="标签："
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                    <TextView
+                        android:id="@+id/travel_biaoqian"
+                        android:textSize="12sp"
+                        android:text="游玩"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+
+
+
+            </RelativeLayout>
+            <LinearLayout
+                android:layout_weight="1.9"
+                android:layout_width="0dp"
+                android:layout_height="match_parent">
+
+                <RelativeLayout
+                    android:layout_marginTop="9dp"
+                    android:layout_marginBottom="6dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent">
+                    <ImageView
+                        android:layout_marginLeft="-6dp"
+                        android:id="@+id/travel_news_img"
+                        android:layout_centerInParent="true"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent" />
+                </RelativeLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>

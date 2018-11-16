@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".findActivity.YiJianActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#1296DB"
+        android:paddingTop="18dp">
+
+        <include layout="@layout/title_lay" />
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/et_yijian"
+        android:layout_width="match_parent"
+        android:layout_height="260dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="请输入您要反馈的信息"
+        android:minHeight="100dp"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <EditText
+        android:id="@+id/et_phone"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="25dp"
+        android:background="@null"
+        android:gravity="top"
+        android:hint="请输入联系电话或邮箱(选填)"
+        android:padding="10dp"
+        android:textSize="14sp" />
+
+    <Button
+        android:id="@+id/btn_yijian"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="25dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginTop="25dp"
+        android:background="@drawable/btn_shenlan"
+        android:text="提交"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+</LinearLayout>

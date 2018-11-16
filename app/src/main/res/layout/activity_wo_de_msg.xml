@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".findActivity.WoDeMsgActivity">
+    <RelativeLayout
+        android:background="#1296DB"
+        android:layout_width="match_parent"
+        android:layout_height="68dp">
+
+        <RelativeLayout
+            android:layout_alignParentBottom="true"
+            android:layout_width="match_parent"
+            android:layout_height="36dp">
+            <ImageView
+                android:id="@+id/msg_goback"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="6dp"
+                android:background="@mipmap/go_back"
+                android:layout_width="28dp"
+                android:layout_height="22dp" />
+            <com.flyco.tablayout.SegmentTabLayout
+                android:layout_centerVertical="true"
+                android:layout_centerInParent="true"
+                android:id="@+id/tabLayout_1"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="32dp"
+                app:tl_textsize="16sp"
+                app:tl_textSelectColor="#1296db"
+                app:tl_textUnselectColor="#fff"
+                app:tl_bar_color="#1296DB"
+                app:tl_indicator_color="#fff"
+                app:tl_indicator_corner_radius="8dp"
+                app:tl_tab_padding="20dp"
+                />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/continner_msg"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <include layout="@layout/loading"/>
+    </FrameLayout>
+
+
+
+</LinearLayout>

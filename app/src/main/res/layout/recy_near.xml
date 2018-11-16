@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    android:id="@+id/fra_near"
+    android:layout_marginLeft="8dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="105dp">
+
+    <ImageView
+        android:scaleType="fitXY"
+        android:id="@+id/near_im"
+        android:layout_width="200dp"
+        android:layout_height="105dp" />
+    <FrameLayout
+        android:layout_gravity="bottom"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:alpha="0.3"
+            android:background="#7A7A7A"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/near_name"
+                android:layout_centerHorizontal="true"
+                android:textSize="14sp"
+                android:text="蕃茄屋葡式美食"
+                android:textColor="#fff"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <LinearLayout
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="1dp"
+                android:layout_below="@+id/near_name"
+                android:layout_marginRight="8dp"
+                android:layout_alignParentRight="true"
+
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+<ImageView
+    android:src="@mipmap/dingwei"
+    android:layout_width="15sp"
+    android:layout_height="13sp" />
+                <TextView
+                    android:id="@+id/near_distance"
+                    android:layout_marginLeft="6dp"
+                    android:text="0.8Km"
+                    android:textSize="12sp"
+                    android:textColor="#fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </FrameLayout>
+</FrameLayout>

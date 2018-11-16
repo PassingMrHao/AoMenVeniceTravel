@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="8dp"
+    android:layout_marginRight="8dp"
+    android:orientation="vertical"
+    tools:context=".myFragment.TravelBSFrg">
+
+    <ScrollView
+        android:scrollbars="none"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp"
+                android:text="概述"
+                android:textColor="#1296DB"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="6dp"
+                android:text="\u3000\u3000由澳门各大酒店、娱乐场所提供、免费接载居民及游客往来各口岸和酒店、娱乐场，俗称发财大巴。大部分都提供由其酒店或娱乐场至关闸、外港
+客运码头或集团下属酒店、娱乐场所的专线巴士服务。其中新濠天地的服务路线最多，其提供往返关闸、外港客运码头、新丽华酒店、氹仔市区等10条路线的服务。" />
+
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="28dp"
+                android:gravity="center_vertical">
+                <ImageView
+                    android:layout_width="18dp"
+                    android:layout_height="18dp"
+                    android:src="@mipmap/star" />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="\u3000由政府或大会提供的免费穿梭旅游巴士" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginTop="12dp"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:orientation="horizontal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+                    <TextView
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="#fff"
+                        android:background="#1296DB"
+                        android:gravity="center"
+                        android:text="线路名称"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                    <View
+                        android:background="#fff"
+                        android:layout_width="3px"
+                        android:layout_height="match_parent"/>
+                    <TextView
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:textColor="#fff"
+                        android:background="#1296DB"
+                        android:gravity="center"
+                        android:text="服务范围"
+                        android:layout_weight="1"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content" />
+                </LinearLayout>
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="威尼斯人旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年的MIF、MIFEC、车展等活动提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="渔人码头旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年的粤澳名优、电脑展等提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="美食节旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年的美食节提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="大赛车旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+
+                <TextView
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:paddingTop="2dp"
+                    android:text="\u3000每年的大赛车活动期间向媒体工作人员及沿线居民提供免费服务"
+                    android:textSize="14sp" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="澳门蛋旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年五一及十一期间由体育发展局举办的演唱会提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="花车巡游旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年的初三提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="黑沙海滩旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年五一由民政总署举办的沙滩演唱会提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="石排湾郊野公园旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000每年的动物日以及妈祖文化村活动举办时提供免费服务"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="民政总署郊游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000民政总署不定期举办氹仔、路氹及路环爬山、湿地观光活动，收费5元，老人儿童免费"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+            <LinearLayout
+                android:gravity="center_vertical"
+                android:orientation="horizontal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:gravity="center"
+                    android:text="妈祖文化旅游巴士线"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+                <TextView
+                    android:paddingTop="2dp"
+                    android:paddingBottom="2dp"
+                    android:paddingLeft="3dp"
+                    android:textSize="14sp"
+                    android:text="\u3000由妈祖文化基金会提供免费往返石排湾郊野公园至妈祖文化村"
+                    android:layout_weight="1"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content" />
+                <View
+                    android:background="#1296DB"
+                    android:layout_width="3px"
+                    android:layout_height="match_parent"/>
+            </LinearLayout>
+            <View
+                android:layout_marginBottom="56dp"
+                android:background="#1296DB"
+                android:layout_width="match_parent"
+                android:layout_height="3px"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
